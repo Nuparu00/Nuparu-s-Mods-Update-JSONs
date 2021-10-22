@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/tinyinv/files",
 	"promos": {
-		"1.16.5-latest": "1.16.5-1.0.3.1",
-		"1.16.5-recommended": "1.16.5-1.0.3.1"
+		"1.16.5-latest": "1.16.5-1.0.4.0",
+		"1.16.5-recommended": "1.16.5-1.0.4.0"
 	},
 	"1.16.5": {
+		"1.16.5-1.0.4.0": "Made compatible with most modded containers, by using Mixins instead of Forge events\nFixed offhand slot being rendered in the creative inventory, even if disabled\nRemoved the \"defaultTooltipGUIs\" config option, as it should not be needed anymore\nAdded client-side \"hideOffhand\" config option, allowing the player to hide the offhand slot from the inventory without disabling its functionality",
 		"1.16.5-1.0.3.1": "Added support for GUIs that are using the Mantle's MultiModuleScreen",
 		"1.16.5-1.0.3.0": "Updated for Minecraft 1.16.5"
 	}
