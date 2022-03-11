@@ -1,11 +1,15 @@
-
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/caelum/files",
 	"promos": {
+		"1.18.2-latest": "1.18.2-1.0.1.0",
+		"1.18.2-recommended": "1.18.2-1.0.1.0",
 		"1.18.1-latest": "1.18.1-1.0.0.0",
-		"1.18.1-recommended": "1.18.1-1.0.0.0",
+		"1.18.1-recommended": "1.18.1-1.0.0.0"
 	},
 	"1.18.1": {
-		"1.18.1-1.0.0.0": "Initial release",
+		"1.18.1-1.0.0.0": "Initial release"
+	},
+	"1.18.2": {
+		"1.18.2-1.0.1.0": "Updated to 1.18.2\nAdded supernovas\nSupernovas affect the night light levels, while they are visible in the sky. However, they do not affect the vanilla daylight sensors, due to how Mojang implemented them. That being said, they affect the inverted daylight sensors.\nAdded shooting stars\nAdded (server) config options for supernovas and shooting stars"
 	}
 }
