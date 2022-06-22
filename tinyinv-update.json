@@ -1,10 +1,21 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/tinyinv/files",
 	"promos": {
-		"1.16.5-latest": "1.16.5-1.0.4.0",
-		"1.16.5-recommended": "1.16.5-1.0.4.0"
+		"1.19-latest": "1.19-1.0.5.0",
+		"1.19-recommended": "1.19-1.0.5.0",
+		"1.18.1-latest": "1.18.1-1.0.5.0",
+		"1.18.1-recommended": "1.18.1-1.0.5.0",
+		"1.16.5-latest": "1.16.5-1.0.4.1",
+		"1.16.5-recommended": "1.16.5-1.0.4.1"
+	},
+	"1.19": {
+		"1.19-1.0.5.0": "Updated to Minecraft 1.19"
+	},
+	"1.18.1": {
+		"1.18.1-1.0.5.0": "Compatibility with Minecraft 1.18.1\nAllows increasing the hotbar size above the vanilla 9 slots, although the behavior might be unpredictable (also keep in mind that the slots use Minecraft's slot IDs, so the additional hotbar slots begin in the upper left corner of the 3x9 grid)\nChanged the former common config into server config"
 	},
 	"1.16.5": {
+		"1.16.5-1.0.4.1": "Uses Mixin instead of RenderGameOverlayEvent.Pre, as previously canceling the event caused some mods not render their stuff\nMight not work with mods that Mixin IngameGui, if that happens - use the previous version",
 		"1.16.5-1.0.4.0": "Made compatible with most modded containers, by using Mixins instead of Forge events\nFixed offhand slot being rendered in the creative inventory, even if disabled\nRemoved the \"defaultTooltipGUIs\" config option, as it should not be needed anymore\nAdded client-side \"hideOffhand\" config option, allowing the player to hide the offhand slot from the inventory without disabling its functionality",
 		"1.16.5-1.0.3.1": "Added support for GUIs that are using the Mantle's MultiModuleScreen",
 		"1.16.5-1.0.3.0": "Updated for Minecraft 1.16.5"
