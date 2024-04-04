@@ -1,7 +1,7 @@
 {
    "homepage":"https://www.curseforge.com/minecraft/mc-mods/tinyinv/files",
    "promos":{
-      "1.20.1-latest":"1.20.1-1.1.0.0",
+      "1.20.1-latest":"1.20.1-1.1.0.1",
       "1.20.1-recommended":"1.20.1-1.1.0.0",
       "1.19-latest":"1.19-1.0.5.0",
       "1.19-recommended":"1.19-1.0.5.0",
@@ -11,6 +11,7 @@
       "1.16.5-recommended":"1.16.5-1.0.4.1"
    },
    "1.20.1":{
+      "1.20.1-1.1.0.1":"Fixed crash that could happen, when changing dimension\nFixed crash when using with Better Combat\nChanged license to MIT\n",
       "1.20.1-1.1.0.0":"Updated to 1.20.1\nAdded the possibility to disable individual armor slots\nAdded the possibility to disable the individual crafting input slots (the crafting result slot is disabled automatically if all the 4 input slots are disabled)\nIt is now possible to disable/enable slots for individual players, instead of just globally\nItems, effects, and commands can now affect the available slots\nModifiers added by items and effects can be added using datapacks"
    },
    "1.19":{
